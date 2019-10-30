@@ -16,6 +16,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 html {
   font-size: 62.5%;
+  width: 100%
 }
 
 body {
@@ -23,8 +24,13 @@ body {
   font-family: 'Barlow', sans-serif;
   line-height: 30px;
   letter-spacing: 0.2px;
-  position: absolute;
+  width: 100%;
+}
 
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 ul {
@@ -411,6 +417,7 @@ li a {
     max-width: 100%;
     height: auto ;
   }
+  
   /* Section: Our Pandas */
   .our-panda-containers h2 {
     font-size: 1.9rem;
@@ -471,8 +478,8 @@ li a {
 
   .hero-text {
     font-size: 3.9rem;
-    width: 130px;
-    line-height: 25px;
+    width: 150px;
+    line-height: 35px;
   }
 
   /* Section: New Friends */
