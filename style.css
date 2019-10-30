@@ -35,7 +35,8 @@ a {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Offside', cursive;
   font-size: 4.2rem;
   font-weight: 400;
@@ -43,8 +44,26 @@ h2 {
   padding: 0;
 }
 
+button {
+  font-family: 'Offside', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+li {
+  font-family: 'Barlow', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 29px;
+}
+
+li a {
+  color: #fff;
+}
+
 .wrapper {
-  max-width: 1400px;
+  max-width: 1500px;
   margin: auto;
   width: 80%;
 }
@@ -79,17 +98,9 @@ h2 {
 }
 
 .section-header li {
-  font-family: 'Barlow', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
   text-align: right;
-  line-height: 29px;
   display: inline-block;
   padding-left: 25px;
-}
-
-.section-header li a {
-  color: #fff;
 }
 
 .hero-container {
@@ -215,3 +226,129 @@ h2 {
 }
 
 /* Section: Our Pandas */
+.our-pandas {
+  background-color: #213C28;
+  margin: 0;
+}
+.our-panda-containers {
+  width: 50%;
+  float: left;
+  color: #fff;
+}
+
+.our-panda-containers img {
+  width: 100%;
+  display: block;
+}
+
+.panda-info-group {
+  margin-top: 20%;
+}
+
+.panda-info-group p {
+  margin: 30px 0 30px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.panda-info-group a {
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 0;
+  border: 0;
+  color: #116500;
+}
+
+.text-wrapper-left {
+  width: 70%;
+  margin: 0 10% 0 20%;
+}
+
+.text-wrapper-right {
+  width: 70%;
+  margin: 0 20% 0 10%;
+}
+
+/* Section: Additional Info */
+.additional-info {
+  width: 100%;
+}
+
+.additional-info {
+  background-color: #D6F1E4;
+  padding: 100px 0;
+}
+
+.additional-info-container {
+  display: inline-block;
+  width: 33%;
+  margin: 0;
+  text-align: center;
+}
+
+.additional-info-container i {
+  font-size: 42px;
+  margin-bottom: 20px; 
+  color: #213C28;
+}
+
+.additional-info-container h3 {
+  color: #116500;
+}
+
+/* Section: Contact */
+.section-contact {
+  padding: 100px 0;
+  color: #fff;
+  background-color: #213C28;
+}
+
+.form-container,
+.contact-container,
+.contact-group {
+  width: 50%;
+  float: left;
+}
+
+.contact-group {
+  margin-left: 12.5%;
+}
+
+.bottom-nav {
+  float: right;
+}
+
+.bottom-nav li {
+  font-weight: 400;
+  text-align: right;
+  font-size: 3rem;
+}
+
+.section-contact label {
+  display: block;
+}
+
+.section-contact input,
+.section-contact button {
+  display: inline-block;
+}
+
+.section-contact input {
+  width: 60%;
+  padding: 5px 20px;
+  border-radius: 0;
+}
+
+.section-contact button {
+  background-color: #2C2D2C;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+}
+
+.section-contact h4 {
+  font-size: 3rem;
+  font-weight: 400;
+}
