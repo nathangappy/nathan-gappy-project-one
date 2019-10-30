@@ -25,6 +25,7 @@ body {
   line-height: 30px;
   letter-spacing: 0.2px;
   overflow-x: hidden;
+  position: fixed;
 }
 
 img {
