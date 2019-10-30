@@ -86,7 +86,7 @@ li a {
 
 .sitename {
   font-family: 'Offside', cursive;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 20px; 
   width: 100px;
 }
@@ -95,6 +95,10 @@ li a {
   width: 50%;
   float: right;
   text-align: right;
+}
+
+.mobile-navigation {
+  display: none;
 }
 
 .section-header li {
@@ -162,7 +166,6 @@ li a {
 
 .newfriends-title {
   font-family: 'Offside', sans-serif;
-  font-size: 42px;
   font-weight: 400;
   text-align: center;
   color: #116500;
@@ -198,7 +201,7 @@ li a {
 
 .more-info-text-container {
   width: 75%;
-  float: left;
+  float: right;
   padding-left: 20px;
 }
 
@@ -219,6 +222,7 @@ li a {
   padding: 10px 20px;
   background-color: #116500;
   border: 1px solid #116500;
+  text-transform: capitalize;
 }
 
 .more-info button a {
@@ -248,13 +252,13 @@ li a {
 .panda-info-group p {
   margin: 30px 0 30px;
   font-family: 'Barlow', sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 30px;
 }
 
 .panda-info-group a {
-  padding: 15px 20px;
+  padding: 10px 25px;
   background-color: #fff;
   border-radius: 0;
   border: 0;
@@ -269,6 +273,10 @@ li a {
 .text-wrapper-right {
   width: 70%;
   margin: 0 20% 0 10%;
+}
+
+.ordering-fix {
+  display: none;
 }
 
 /* Section: Additional Info */
@@ -323,7 +331,8 @@ li a {
 .bottom-nav li {
   font-weight: 400;
   text-align: right;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
 }
 
 .section-contact label {
@@ -337,7 +346,7 @@ li a {
 
 .section-contact input {
   width: 60%;
-  padding: 5px 20px;
+  padding: 10px 20px;
   border-radius: 0;
 }
 
@@ -351,4 +360,271 @@ li a {
 .section-contact h4 {
   font-size: 3rem;
   font-weight: 400;
+}
+
+.section-contact label {
+  padding: 3px 0;
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 1600px) {
+  /* Universal Styles */
+  .wrapper {
+    width: 90%;
+  }
+
+  /* Section: New Friends */
+  .more-info-text-container {
+    width: 65%;
+    float: right
+  }
+
+  .more-info-text-container {
+    padding-left: 40px;
+  }
+
+  .more-info-text-container p {
+    font-size: 1.5rem;
+    line-height: 25px;
+  }
+
+  /* Section: Our Pandas */
+  .our-panda-containers h2 {
+    font-size: 3rem;
+  }
+
+  .our-panda-containers p {
+    font-size: 1.5rem;
+  }
+
+  .panda-info-group {
+    margin-top: 15%;
+  }
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 1150px) {
+  /* Universal Styles */
+  img {
+    width: auto ;
+    max-width: 100%;
+    height: auto ;
+  }
+  /* Section: Our Pandas */
+  .our-panda-containers h2 {
+    font-size: 1.9rem;
+  }
+
+  .our-panda-containers p {
+    margin: 10px 0 15px 0;
+    line-height: 18px;
+    font-size: 1.7rem;
+  }
+
+  .panda-info-group {
+    margin-top: 7%;
+  }
+
+  /* Section: Additional Info */
+  .additional-info-container {
+    width: 30%;
+    margin: 0 1%;
+  }
+  .additional-info h3{
+    font-size: 3rem;
+  }
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 870px) {
+  /* Universal Styles */
+  .wrapper {
+    width: 90%;
+  }
+
+  html {
+    font-size: 10px;
+  }
+
+  /* Section: Header */
+  .section-header {
+    height: 50vh;
+  }
+
+  .navigation ul li {
+    display: none;
+  }
+
+  .navigation button {
+    display: inline-block;
+    background: transparent;
+    border: none;
+  }
+
+  .navigation i {
+    width: 100%;
+    color: #fff;
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    font-size: 3.9rem;
+    width: 130px;
+    line-height: 25px;
+  }
+
+  /* Section: New Friends */
+  .section-newfriends {
+    padding: 50px 0;
+  }
+
+  .newfriends-gallery .gallery-img-container:first-of-type,
+  .newfriends-gallery .gallery-img-container:nth-of-type(2) {
+    width: 48%;
+    margin: 0;
+    float: left;
+  }
+
+  .newfriends-gallery .gallery-img-container:first-of-type {
+    margin-right: 2%;
+  }
+
+  .newfriends-gallery .gallery-img-container:nth-of-type(2) {
+    margin-left: 2%;
+  }
+
+  .newfriends-gallery .gallery-img-container:last-of-type {
+    padding-top: 50px;
+    width: 100%;
+  }
+
+  .newfriends-gallery {
+    margin: 40px 0 20px 0;
+  }
+
+  .more-info {
+    margin-top: 20px;
+  }
+
+  
+  .more-info-img-container {
+    display: none;
+  }
+  
+  .more-info-text-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .more-info-text-container p {
+    padding: 10px 0;
+  }
+  
+  .more-info-text-container button {
+    margin: 15px auto 25px;
+    display: block;
+    padding: 20px 30px;
+  }
+
+  .our-panda-containers {
+    width: 100%;
+  }
+
+  .panda-info-group {
+    margin-top: 0;
+    padding: 40px 0;
+  }
+
+  .panda-info-group h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .panda-info-group a {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  .text-wrapper-left,
+  .text-wrapper-right {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ordering-fix {
+    display: block;
+  }
+
+  .our-panda-containers:nth-of-type(3) {
+    display: none;
+  }
+
+  .our-panda-containers .link-container {
+    text-align: center
+  }
+
+  /* Section: Additional Info */
+  .additional-info h3 {
+    font-size: 3rem;
+  }
+  .additional-info {
+    padding: 25px 0;
+  }
+  .additional-info-container {
+    width: 100%;
+    padding: 25px 0;
+  }
+
+  /* Section: Contact */
+  .form-container,
+  .contact-container {
+    width: 100%;
+  }
+
+  .section-contact {
+    padding: 25px 0;
+    font-weight: 700;
+  }
+
+  .contact-group {
+    width: 70%;
+    margin: 0;
+  }
+
+  .contact-group p {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bottom-nav {
+    width: 30%;
+  }
+
+  .form-container {
+    text-align: center;
+  }
+
+  .section-contact input {
+    width: 100%;
+  }
+
+  .section-contact button {
+    display: block;
+    margin: 15px auto 15px;
+  }
+}
+
+/* Landscape phones and down */
+@media screen and (max-width: 480px) {
+  /* Universal Styles */
+  html {
+    font-size: 7px;
+  }
+
+  /* Section: New Friends */
+  .panda-info-group h2 {
+    text-align: center;
+  }
 }

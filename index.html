@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/69fb755ab9.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Barlow:400,700|Offside&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>Panda Sanctuary</title>
 </head>
+
 <body>
   <!-- Section: Header -->
   <header class="section-header">
@@ -20,9 +23,12 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#blog">Blog</a></li>   
+          <li><a href="#blog">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <button class="mobile-navigation">
+          <i class="fas fa-bars"></i>
+        </button>
       </nav>
       <div class="hero-container clearfix">
         <div class="hero-text-container">
@@ -55,7 +61,12 @@
         </div>
         <div class="more-info-text-container">
           <h2>More about our park</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis neque architecto eligendi fugit ad molestiae rem, magnam ut repudiandae voluptatibus dolores consequatur pariatur illo repellat omnis soluta tenetur quisquam, quasi hic accusamus illum perspiciatis quis. Quibusdam illum repudiandae asperiores praesentium dignissimos autem molestiae neque facere velit odio sed adipisci explicabo, debitis voluptatum, labore corporis iste minus laborum. Nam autem, dolor laboriosam quos quisquam esse sed facilis dignissimos animi laborum, corporis voluptatibus eius eaque, similique obcaecati in labore voluptates officia quis?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis neque architecto eligendi fugit ad
+            molestiae rem, magnam ut repudiandae voluptatibus dolores consequatur pariatur illo repellat omnis soluta
+            tenetur quisquam, quasi hic accusamus illum perspiciatis quis. Quibusdam illum repudiandae asperiores
+            praesentium dignissimos autem molestiae neque facere velit odio sed adipisci explicabo, debitis voluptatum,
+            labore corporis iste minus laborum. Nam autem, dolor laboriosam quos quisquam esse sed facilis dignissimos
+            animi laborum, corporis voluptatibus eius eaque, similique obcaecati in labore voluptates officia quis?</p>
           <button><a href="#readmore">Read More</a></button>
         </div>
       </div>
@@ -64,12 +75,21 @@
 
   <!-- Section: Our Pandas -->
   <section class="our-pandas clearfix">
+    <!-- Terrible Repeating Fix That Will Be Fixed -->
+    <div class="our-panda-containers ordering-fix">
+      <img src="./img/right-image.jpg" alt="pandas named bobby and bella">
+    </div>
     <div class="our-panda-containers">
       <div class="panda-info-group">
         <div class="text-wrapper-left">
           <h2>Bobby and Bella</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita eveniet enim placeat ut! Sapiente dicta, unde architecto debitis dignissimos quaerat quia at perferendis earum incidunt sit! Praesentium reiciendis enim esse voluptatum quas cum perspiciatis necessitatibus tenetur minus! Quae mollitia dolores dicta iure rerum sapiente vel tenetur saepe corrupti ad!</p>
-          <a href="#more">Read More</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita eveniet enim placeat ut! Sapiente
+            dicta, unde architecto debitis dignissimos quaerat quia at perferendis earum incidunt sit! Praesentium
+            reiciendis enim esse voluptatum quas cum perspiciatis necessitatibus tenetur minus! Quae mollitia dolores
+            dicta iure rerum sapiente vel tenetur saepe corrupti ad!</p>
+          <div class="link-container">
+            <a href="#more">Read More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -83,8 +103,13 @@
       <div class="panda-info-group">
         <div class="text-wrapper-right">
           <h2>Look at Marco now</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cupiditate sunt suscipit exercitationem est quibusdam nesciunt iste adipisci magnam, eos provident odio perferendis aliquam modi quia culpa sapiente pariatur possimus reiciendis fugiat. Nisi, non! Adipisci corrupti mollitia reprehenderit repudiandae, ducimus eaque, maxime magnam vitae, id aut ullam dicta repellendus sed?</p>
-          <a href="#more">Read More</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cupiditate sunt suscipit exercitationem
+            est quibusdam nesciunt iste adipisci magnam, eos provident odio perferendis aliquam modi quia culpa
+            sapiente pariatur possimus reiciendis fugiat. Nisi, non! Adipisci corrupti mollitia reprehenderit
+            repudiandae, ducimus eaque, maxime magnam vitae, id aut ullam dicta repellendus sed?</p>
+          <div class="link-container">
+            <a href="#more">Read More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -121,7 +146,8 @@
       <div class="contact-container clearfix">
         <div class="contact-group">
           <h4>Contact</h4>
-          <p>info@email.com 123 - 456 - 6789</p>
+          <p>info@email.com</p>
+          <p>123-456-6789</p>
           <p>123 some road, Toronto, ON</p>
           <p>A5A 5A5, Canada</p>
         </div>
@@ -139,4 +165,5 @@
 
 
 </body>
+
 </html>
