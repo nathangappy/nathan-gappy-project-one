@@ -15,11 +15,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 }
 
 html {
-  margin: 0;
-  height: 100%;
   font-size: 62.5%;
-  min-width: 100%;
-  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
@@ -27,8 +24,7 @@ body {
   font-family: 'Barlow', sans-serif;
   line-height: 30px;
   letter-spacing: 0.2px;
-  overflow-x: hidden;
-  position: fixed;
+  overflow-x: hidden
 }
 
 img {
