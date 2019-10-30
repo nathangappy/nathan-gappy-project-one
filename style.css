@@ -16,7 +16,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 html {
   font-size: 62.5%;
-  width: 100%
+  min-width: 100%
 }
 
 body {
@@ -24,7 +24,7 @@ body {
   font-family: 'Barlow', sans-serif;
   line-height: 30px;
   letter-spacing: 0.2px;
-  width: 100%;
+  overflow-x: hidden;
 }
 
 img {
